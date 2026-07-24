@@ -43,21 +43,21 @@
         <li>limited diagnostic or performance information needed to deliver, measure, secure, and troubleshoot advertising services.</li>
       </ul>
       <p>This information may be processed for advertising, ad measurement, service security, fraud prevention, and compliance. Data transmitted by Yandex Mobile Ads is encrypted in transit using HTTPS/TLS.</p>
-      <p>Beam disables location tracking in the Yandex advertising SDK and does not request precise or approximate location for advertising. Beam currently requests non-personalized advertising. Your Android privacy and advertising settings may provide additional controls, including the ability to reset or delete the advertising identifier.</p>
+      <p>Beam disables location tracking in the Yandex advertising SDK and does not request precise or approximate location for advertising. Before advertising is initialized for the first time, Beam asks you to choose between non-personalized and personalized advertising. If you allow personalized advertising, Beam passes that choice to Yandex Mobile Ads. If you choose non-personalized advertising, Beam passes a negative consent signal so the SDK can restrict data processing where applicable. Your Android privacy and advertising settings may provide additional controls, including the ability to reset or delete the advertising identifier.</p>
       <p>Yandex processes information under its own terms and policies. For further details, review the <a href="https://yandex.com/legal/confidential/" rel="noopener noreferrer">Yandex Privacy Policy</a> and the <a href="https://ads.yandex.com/helpcenter/en/dev/android7/app-privacy-android" rel="noopener noreferrer">Yandex Mobile Ads data-safety information</a>.</p>
 
       <h2>3. Information you send to us</h2>
       <p>If you contact us for support or make a privacy request, we receive the information you choose to include, such as your email address, message, and attachments. We use it only to respond, investigate the issue, protect the Game, or comply with legal obligations. Please do not send sensitive personal information.</p>
 
       <h2>4. Legal bases and choices</h2>
-      <p>Depending on where you live, processing may rely on consent, our legitimate interests in operating and protecting the Game, performance of a requested service, or compliance with law. Where consent is required, advertising-related processing should occur only after the applicable choice has been obtained. You may withdraw or change available choices through the Game’s privacy controls or your device settings.</p>
+      <p>Depending on where you live, processing may rely on consent, our legitimate interests in operating and protecting the Game, performance of a requested service, or compliance with law. Beam stores your advertising choice locally on your device and sends the selected consent signal to Yandex Mobile Ads each time the advertising service is initialized. You may withdraw or change your choice at any time by opening <strong>Settings → Privacy &amp; Data</strong> in the Game. A changed choice is applied to future advertising requests. You may also use the privacy and advertising controls provided by Android.</p>
 
       <h2>5. Data retention and deletion</h2>
       <p>Local gameplay data remains on your device until you clear the Game’s storage or uninstall it. Support correspondence is retained only as long as reasonably necessary to answer your request, resolve disputes, maintain security, and meet legal requirements.</p>
       <p>Advertising information is retained by Yandex according to its policies. You may email us to request access to or deletion of information we control, or for assistance with a request involving the advertising service. We may need reasonable information to verify and locate the relevant records. See our <a href="../data-deletion/">Data Deletion Instructions</a> for the request steps, affected data, and retention details.</p>
 
       <h2>6. Children’s privacy</h2>
-      <p>Beam is a general-audience game and is not directed to children under the age of 13. We do not knowingly collect personal information directly from children. If you believe a child has provided personal information to us, contact us so that we can investigate and take appropriate action.</p>
+      <p>Beam is intended for adults and its Google Play target audience is set to users aged 18 and over. The Game is not directed to children, and we do not knowingly collect personal information directly from children. If you believe a child has provided personal information to us, contact us so that we can investigate and take appropriate action.</p>
 
       <h2>7. International processing</h2>
       <p>Third-party providers may process information in countries other than the country where you live. Their processing is governed by their policies and applicable safeguards.</p>
